@@ -44,8 +44,8 @@ public class Enseignant {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Enseignant that = (Enseignant) o;
-        return id == that.id;
+        Enseignant ens = (Enseignant) o;
+        return id == ens.id;
     }
 
     @Override
